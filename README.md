@@ -28,10 +28,10 @@ This site is a custom-built landing page designed to provide a clear, profession
 ```text
 /
 ├── index.html        # Landing page structure
-├── script.js         # Navigation logic
 ├── css/              # Stylesheets
 │   ├── nav.css       # Navigation bar logic
 │   ├── media.css     # Breakpoints and responsiveness
 │   ├── button.css    # UI components
 │   └── styles.css    # Global resets
-└── assets/           # Images and branding
+    └── script.js         # Navigation logic
+└── img/           # Images and branding
