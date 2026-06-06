@@ -1,0 +1,76 @@
+.hero-actions, .btn-primary, .btn-secondary {
+    display: flex;
+    align-items: center;
+    gap: 24px;
+    text-decoration: none;
+}
+
+.btn-primary {
+    background-color: var(--orange);
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+    color: var(--text) !important;
+    transition: all 0.3s ease;
+
+    font-size: var(--fs-p);
+    font-family: var(--ff-body);
+
+    border-radius: 50px;
+    max-width: fit-content;
+
+    margin: 0;
+    padding: 16px 34px;
+    border: none;
+    white-space: nowrap;
+}
+
+nav .btn-primary:hover {
+    transform: scale(1.05);
+}
+
+main .btn-primary:hover {
+    filter: brightness(80%);
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: 1.8px solid var(--bg-one);
+    color: var(--bg-one);
+
+    font-size: var(--fs-p);
+    font-family: var(--ff-body);
+
+    transition: all 0.4s ease;
+    padding: 16px 34px;
+    border-radius: 50px;
+
+    max-width: fit-content;
+    white-space: nowrap;
+}
+
+.btn-secondary:hover {
+    background-color: var(--bg-one);
+    color: var(--text);
+}
+
+#projects .btn-secondary, #services .btn-primary {
+    margin: 75px auto 0 auto;
+}
+
+#reviews .btn-secondary {
+    margin: 60px auto 0 auto;
+}
+
+section:not(#hero) .btn-secondary {
+    color: var(--text);
+    border-color: var(--text);
+}
+
+section:not(#hero) .btn-secondary:hover {
+    background-color: var(--text);
+    color: var(--bg-one);
+}
+
+button[type=submit] {
+    cursor: pointer;
+    transform: scale(0.95);
+}
