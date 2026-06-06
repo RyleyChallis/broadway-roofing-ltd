@@ -32,6 +32,6 @@ This site is a custom-built landing page designed to provide a clear, profession
 │   ├── nav.css       # Navigation bar logic
 │   ├── media.css     # Breakpoints and responsiveness
 │   ├── button.css    # UI components
-│   └── styles.css    # Global resets
+│   ├── styles.css    # Global resets
     └── script.js         # Navigation logic
 └── img/           # Images and branding
