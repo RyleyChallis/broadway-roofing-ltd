@@ -206,6 +206,10 @@ p {
     z-index: 1;
 }
 
+#reviews {
+    padding-bottom: 67px !important;
+}
+
 .review-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
