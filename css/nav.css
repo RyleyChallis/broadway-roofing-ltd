@@ -41,10 +41,6 @@ nav .logo img {
     transition: all 0.3s ease;
 }
 
-.nav-links a:hover {
-    color: var(--orange);
-}
-
 #open-btn {
     display: none;
     background-color: transparent;
@@ -55,10 +51,6 @@ nav .logo img {
     border: none;
     transition: color 0.3s ease;
     cursor: pointer;
-}
-
-#open-btn:hover {
-    color: var(--orange);
 }
 
 .sidebar {
@@ -131,10 +123,6 @@ nav .logo img {
     color: var(--bg-one);
     text-decoration: none;
     transition: all 0.3s ease;
-}
-
-.sidebar li a:hover {
-    color: var(--orange);
 }
 
 .sidebar img {

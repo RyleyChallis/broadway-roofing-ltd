@@ -123,11 +123,6 @@ p {
     transition: transform 0.3s ease, border-color 0.3s ease;
 }
   
-.service-card:hover {
-    transform: translateY(-5px);
-    border-color: var(--orange);
-}
-  
 .service-card h3 {
     margin: 0 0 10px 0;
     font-size: 1.25rem;
@@ -211,11 +206,6 @@ p {
     z-index: 1;
 }
 
-.project-card:hover .overlay,
-.project-card:hover .text-content {
-   opacity: 1 !important;
-}
-
 .review-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -232,12 +222,7 @@ p {
     flex-direction: column;
     transition: transform 0.3s ease, border-color 0.3s ease;
     border-top: 4px solid transparent;
-}
-
-.review-card:hover {
-    transform: translateY(-10px);
-    border-top: 4px solid var(--orange);
-    box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.04);
+    min-height: 400px;
 }
 
 .review-content {
@@ -382,20 +367,12 @@ footer .intro img {
     padding: 0;
 }
 
-.footer-col ul:hover a {
-    opacity: 0.5;
-}
-
 .footer-col ul li a {
     font-size: var(--fs-p);
     font-family: var(--ff-body);
     text-decoration: none;
     color: var(--bg-one);
     transition: opacity 0.3s ease;
-}
-
-.footer-col ul li a:hover {
-    opacity: 1;
 }
 
 .footer-bottom {

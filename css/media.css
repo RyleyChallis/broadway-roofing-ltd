@@ -45,6 +45,9 @@
     .project-card .text-content {
         opacity: 1 !important;
     }
+    .project-card, .review-card {
+        border-top: 4px solid var(--orange);
+    }
 }
 
 @media (max-width: 992px) {
@@ -143,5 +146,49 @@
 @media (max-width: 508px) {
     nav .btn-primary {
         display: none;
+    }
+}
+
+@media (hover: hover) {
+    .service-card:hover {
+        transform: translateY(-5px);
+        border-color: var(--orange);
+    }
+    .project-card:hover .overlay,
+    .project-card:hover .text-content {
+        opacity: 1 !important;
+    }
+    .review-card:hover {
+        transform: translateY(-10px);
+        border-top: 4px solid var(--orange);
+        box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.04);
+    }
+    .footer-col ul:hover a {
+        opacity: 0.5;
+    }
+    .footer-col ul li a:hover {
+        opacity: 1;
+    }
+    .nav-links a:hover {
+        color: var(--orange);
+    }
+    #open-btn:hover {
+        color: var(--orange);
+    }
+    .sidebar li a:hover {
+        color: var(--orange);
+    }
+    nav .btn-primary:hover {
+    transform: scale(1.05);
+    }
+    main .btn-primary:hover {
+        filter: brightness(80%);
+    }.btn-secondary:hover {
+        background-color: var(--bg-one);
+        color: var(--text);
+    }
+    section:not(#hero) .btn-secondary:hover {
+        background-color: var(--text);
+        color: var(--bg-one);
     }
 }
