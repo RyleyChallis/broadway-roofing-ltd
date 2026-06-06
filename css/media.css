@@ -45,8 +45,11 @@
     .project-card .text-content {
         opacity: 1 !important;
     }
-    #services .service-card, .review-card {
+    .review-card {
         border-top: 4px solid var(--orange);
+    }
+    #services .service-card {
+        border-top: 3px solid var(--orange);
     }
 }
 
