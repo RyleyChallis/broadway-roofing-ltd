@@ -19,7 +19,7 @@ body {
     --bg-one: #efefef;
     --bg-two: #e3e3e3;
 
-    --fs-h1: clamp(3.5rem, 2.5rem + 2.5vw, 3.75rem);
+    --fs-h1: clamp(3rem, 2.5rem + 2.5vw, 3.75rem);
     --fs-h2: clamp(1.75rem, 1.52rem + 1.14vw, 2.375rem);
     --fs-h3: clamp(1.25rem, 1.16rem + 0.45vw, 1.5rem);
     --fs-p: clamp(1rem, 0.95rem + 0.23vw, 1.125rem);
@@ -92,7 +92,7 @@ p {
 
 .hero-content p {
     color: var(--bg-one);
-    max-width: clamp(60%, 6vw, 80%);
+    max-width: clamp(80%, 10vw, 90%);
 }
 
 #services {

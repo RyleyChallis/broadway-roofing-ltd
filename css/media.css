@@ -127,6 +127,12 @@
 }
 
 @media (max-width: 530px) {
+    .hero-actions {
+        flex-direction: column !important;
+        gap: 16px;
+        margin-right: auto;
+        t
+    }
     .footer-links {
         display: flex;
         flex-direction: column;

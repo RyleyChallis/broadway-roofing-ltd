@@ -50,7 +50,7 @@ nav .logo img {
     background-color: transparent;
     color: var(--bg-one);
 
-    font-size: var(--fs-h3);
+    font-size: var(--fs-h2);
     aspect-ratio: 1 / 1;
     border: none;
     transition: color 0.3s ease;
@@ -116,6 +116,7 @@ nav .logo img {
     gap: 12px;
     list-style: none;
     padding: 0 0 75px 0;
+    overflow: auto;
 }
 
 .sidebar ul li a {
