@@ -72,12 +72,13 @@
         margin: 0 auto;
     }
     .map-box {
-        width: 90%;
+        width: 100% !important;
         margin: 0 auto;
         height: 350px;
     }
     .map-box iframe {
-        height: 90%;
+        height: 100%;
+        width: 100% !important;
     }
 }
 
