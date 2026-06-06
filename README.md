@@ -1,6 +1,6 @@
 # Broadway Roofing
 
-A professional, mobile-first landing page designed for a roofing company based in Sussex. This project focuses on clean user experience, semantic HTML, and modular CSS architecture.
+A professional, mobile-first landing page designed for a roofing company based in Gillingham, Kent. This project focuses on clean user experience, semantic HTML, and modular CSS architecture.
 
 ## Table of Contents
 - [Overview](#overview)
