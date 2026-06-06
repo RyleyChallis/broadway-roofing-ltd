@@ -126,7 +126,7 @@ nav .logo img {
 }
 
 .sidebar ul li a {
-    font-size: var(--fs-p);
+    font-size: var(--fs-h3);
     font-family: var(--ff-body);
     color: var(--bg-one);
     text-decoration: none;
