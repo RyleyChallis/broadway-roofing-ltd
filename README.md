@@ -17,7 +17,7 @@ This site is a custom-built landing page designed to provide a clear, profession
 - **Mobile-First Design:** Fluid layout that adapts seamlessly to screen size.
 - **Responsive Navigation:** Custom hamburger menu implementation for clean mobile navigation.
 - **Modular CSS:** Styles organized by component (`nav.css`, `button.css`) for high maintainability.
-- **Optimized Assets:** Lightweight structure using minimal dependencies.
+- **Optimised Assets:** Lightweight structure using minimal dependencies.
 
 ## Tech Stack
 - **HTML5:** Semantic document structure.
