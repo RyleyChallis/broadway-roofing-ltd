@@ -69,8 +69,6 @@
         padding: 0 20px;            /* Adds a little breathing room on the sides */
         box-sizing: border-box;     /* Ensures padding doesn't break the layout */
     }
-
-    /* 2. Ensure the image fills that container */
     .about-image img {
         width: 100% !important;
         max-width: 100% !important;
