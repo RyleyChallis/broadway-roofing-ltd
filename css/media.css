@@ -154,6 +154,9 @@
 }
 
 @media (hover: hover) {
+    .about-image img:hover {
+        transform: translateY(-10px);
+    }
     .service-card:hover {
         transform: translateY(-5px);
         border-color: var(--orange);
@@ -166,6 +169,9 @@
         transform: translateY(-10px);
         border-top: 4px solid var(--orange);
         box-shadow: 5px 10px 20px rgba(0, 0, 0, 0.04);
+    }
+    .project-card:hover {
+        transform: translateY(-10px);
     }
     .footer-col ul:hover a {
         opacity: 0.5;
