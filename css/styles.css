@@ -28,10 +28,6 @@ body {
     --ff-body: 'roboto', sans-serif;
 }
 
-section {
-    min-height: 100vh;
-}
-
 section:not(#hero):nth-child(odd) {
     background-color: var(--bg-one);
 }
@@ -133,6 +129,10 @@ p {
     font-size: 0.95rem;
     color: var(--text-two);
     line-height: 1.5;
+}
+
+#about, #visit {
+    padding-bottom: 75px;
 }
 
 #about .container {
