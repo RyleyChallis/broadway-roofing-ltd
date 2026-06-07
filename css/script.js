@@ -12,4 +12,12 @@ document.addEventListener("DOMContentLoaded", () => {
     if (openBtn) openBtn.addEventListener('click', () => toggleSidebar(true));
     if (closeBtn) closeBtn.addEventListener('click', () => toggleSidebar(false));
     if (overlay) overlay.addEventListener('click', () => toggleSidebar(false));
+
+    const navLinks = document.querySelectorAll('.nav-link');
+
+    navLinks.forEach(link => {
+        link.addEventListener('click', () => {
+            toggleSidebar(false);
+        });
+    });
 });
